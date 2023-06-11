@@ -1,0 +1,14 @@
+;; -*- mode:lisp -*-
+
+(defsystem "unreal-lisp"
+  :serial t
+  :components ((:file "package")
+               (:file "js-clos/js-object")
+               (:file "js-clos/console")
+               (:file "setup")
+               (:file "js-helper-functions")
+               (:file "game/controller")
+               (:file "game/player")
+               (:file "game/npc")
+               (:file "main"))
+  :target :node)

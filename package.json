@@ -1,0 +1,28 @@
+{
+  "name": "unrealjs_examples",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel demos/src -d demos/build",
+    "watch": "babel --watch demos/src -d demos/build"
+  },
+  "author": "NCSOFT",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "convnetjs": "^0.3.0",
+    "google-material-color": "^1.3.1",
+    "hex-rgb": "^1.0.0",
+      "lodash": "^4.17.4",
+      "react": "^15.4.2",
+      "react-umg": "^0.2.6",
+      "springy": "^2.7.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.6.4",
+    "babel-eslint": "^5.0.0",
+    "babel-preset-react": "^6.5.0",
+    "eslint": "<2.3.0"
+  }
+}
